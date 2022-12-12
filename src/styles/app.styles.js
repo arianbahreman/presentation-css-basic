@@ -81,6 +81,10 @@ export const Text = styled.div`
   font-weight: 400;
 `
 
+export const Mark = styled.span`
+  color: #FF6F76;
+`
+
 export const List = styled.ul`
   display: block;
   list-style: none;
@@ -104,5 +108,34 @@ export const ListItem = styled.li`
   & > * {
     vertical-align: middle;
     text-indent: 2rem;
+  }
+`
+
+export const Controls = styled.div`
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  bottom: 0;
+  width: 100%;
+  padding: 20px 40px;
+  box-sizing: border-box;
+`
+
+export const ControlButton = styled.div`
+  display: flex;
+  width: 7rem;
+  height: 7rem;
+  border-radius: 2rem;
+  background-color: #eee;
+  align-items: center;
+  justify-content: center;
+  transition: background-color .5s;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #ddd;
+  }
+  svg {
+    display: block;
   }
 `

@@ -4,7 +4,7 @@ import QRCode from "qrcode-svg"
 export default () => {
 
   const LinkQRCode = new QRCode({
-    content: "http://arianbahreman.com/",
+    content: "https://github.com/arianbahreman/presentation-css-basic",
     padding: 2,
     width: 300,
     height: 300,

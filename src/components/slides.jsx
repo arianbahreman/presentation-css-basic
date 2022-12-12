@@ -10,7 +10,8 @@ import SlideFinal from "../slides/slide-final"
 import Slide7 from "../slides/slide-7"
 import Slide8 from "../slides/slide-8"
 import Slide9 from "../slides/slide-9"
-
+import Slide10 from "../slides/slide-10"
+import Slide11 from "../slides/slide-11"
 
 const Slides = ({ slide }) => {
   
@@ -26,6 +27,8 @@ const Slides = ({ slide }) => {
         <Slide7/>
         <Slide8/>
         <Slide9/>
+        <Slide10/>
+        <Slide11/>
         <SlideFinal/>
       </SlidesContainer>
     </SlidesWrapper>
