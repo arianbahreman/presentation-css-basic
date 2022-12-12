@@ -11,7 +11,9 @@ document.addEventListener('DOMContentLoaded', () => {
   root.render(<App/>)
 })
 
-window.addEventListener('load', () => {
-  
+const setWindowHeight = () => {
   document.documentElement.style.setProperty("--window-height", `${window.innerHeight}px`)
-})
+}
+
+window.addEventListener('load', setWindowHeight)
+window.addEventListener("resize", setWindowHeight)
